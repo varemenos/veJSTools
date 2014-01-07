@@ -1,8 +1,12 @@
 {
   "name": "vejstools",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "vejstools is a CLI tool that uses the veJSTools-lib library",
   "main": "app.js",
+  "preferGlobal": "true",
+  "bin": {
+    "vejstools": "app.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -25,7 +29,7 @@
     "url": "https://github.com/varemenos/veJSTools/issues"
   },
   "homepage": "https://github.com/varemenos/veJSTools",
-  "devDependencies": {
+  "dependencies": {
     "vejstools-lib": "0.0.0"
   }
 }
