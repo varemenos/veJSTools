@@ -1,6 +1,6 @@
 {
   "name": "vejstools",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "vejstools is a CLI tool that uses the veJSTools-lib library",
   "main": "app.js",
   "preferGlobal": "true",
@@ -8,20 +8,20 @@
     "vejstools": "app.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo Error: no test specified && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/varemenos/veJSTools.git"
   },
   "keywords": [
-    "\"vejstools\"",
-    "\"vejstools-lib\"",
-    "\"adonisk\"",
-    "\"varemenos\"",
-    "\"base64\"",
-    "\"encoding\"",
-    "\"decoding\""
+    "vejstools",
+    "vejstools-lib",
+    "adonisk",
+    "varemenos",
+    "base64",
+    "encoding",
+    "decoding"
   ],
   "author": "Adonis K.",
   "license": "MIT",
