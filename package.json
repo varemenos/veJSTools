@@ -1,6 +1,6 @@
 {
   "name": "vejstools",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "vejstools is a CLI tool that uses the veJSTools-lib library",
   "main": "app.js",
   "preferGlobal": "true",
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/varemenos/veJSTools",
   "dependencies": {
-    "vejstools-lib": "0.0.0"
+    "vejstools-lib": "0.0.1"
   }
 }
