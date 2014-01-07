@@ -19,7 +19,7 @@ args.shift(0);
 args.shift(0);
 
 // create a new variable which contains functions from the vejstools library
-var options = require('vejstools');
+var options = require('vejstools-lib');
 
 // loop through all the CLI arguments and process them
 for (var i = 0; i < args.length; i++) {
