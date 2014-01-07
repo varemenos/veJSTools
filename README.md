@@ -1,4 +1,4 @@
 veJSTools
 =========
 
-veJSTools a library of various tools used in tools.adonisk.com
+vejstools is a CLI tool that uses the veJSTools-lib library

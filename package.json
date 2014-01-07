@@ -1,22 +1,23 @@
 {
   "name": "vejstools",
   "version": "0.0.0",
-  "description": "veJSTools a library of various tools used in tools.adonisk.com",
-  "main": "lib.js",
+  "description": "vejstools is a CLI tool that uses the veJSTools-lib library",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/varemenos/veJSTools"
+    "url": "git://github.com/varemenos/veJSTools.git"
   },
   "keywords": [
-    "vejstools",
-    "adonisk",
-    "varemenos",
-    "base64",
-    "encoding",
-    "decoding"
+    "\"vejstools\"",
+    "\"vejstools-lib\"",
+    "\"adonisk\"",
+    "\"varemenos\"",
+    "\"base64\"",
+    "\"encoding\"",
+    "\"decoding\""
   ],
   "author": "Adonis K.",
   "license": "MIT",
