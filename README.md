@@ -18,8 +18,11 @@ cli -option [option-parameter]
 
 options:
 
+* `-h` or `--help`, help
 * `-e` or `--encoding`, base64 encoding
 * `-d` or `--decoding`, base64 decoding
+* `--encodeUnicode`, unicode encoding
+* `--decodeUnicode`, unicode decoding
 
 ### examples
 
