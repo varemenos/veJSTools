@@ -3,15 +3,18 @@
 
 'use strict';
 
+// load the vejstools library
+var options = require('vejstools-lib');
+
 // get the CLI parameters
 var args = process.argv.slice();
 
 if (args.length === 2) {
 	// if there were no CLI arguments except the default node and pwd
-	// then print error message
-	console.log('No options and parameters specified');
+	// then print the help page
+	options.help();
 	// and exit
-	return -1;
+	return 0;
 }
 
 // remove the first 2 CLI arguments which are node and the pwd
@@ -23,9 +26,6 @@ var unknownOption = function(option) {
 		console.log('unknown option "' + option + '"');
 	}
 }
-
-// create a new variable which contains functions from the vejstools library
-var options = require('vejstools-lib');
 
 // loop through all the CLI arguments and process them
 for (var i = 0; i < args.length; i++) {
